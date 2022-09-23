@@ -17,4 +17,5 @@ _________________________
 2)git add .
 3) git commit -m ''
 	*git remote add origin <сылка> 1(раз)
-4)git push origin main
+4)git push origin main (для изменение гитхабе новых изменении надо повторить с пункта 2 до пункта 4 заново)
+git log просмотр истории коммитов

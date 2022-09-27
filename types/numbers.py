@@ -60,10 +60,70 @@
 # abs()- абсолютное значение  abs(-5) = 5 всегда возврашает положительное число
 # print(abs(-100))
 # print(abs(50))
-# import math
+# importS = π × r2 math
 # print(math.pi)
 # print(math.sqrt(16)) # корень
 # print(math.sqrt(101))
 # from math import pi ,sqrt #- можно импортировать отдельные модули
 # print(pi)
 # print(sqrt(100))
+# dir () - Возврашяет методы обекта или функции определенного модуля
+#import math
+#print(dir(math))
+
+#Множественное присваевание
+#a = 5
+#a, b, c = 1, 3 ,4
+#v =5
+#n = 7 
+#d = 3
+#v, n, d = d,v,n
+#print(v,n,d)
+##############################
+#print('hello' *3 )
+# str1 ='12'
+# num1 = 2
+# print(str1 + str(num1))
+# Инкримент и Дикремент
+# Инкримент -- увеличение значения какой либо переменной (a = 1 ) (a += 1) это тоже самое a=a+1;
+# a = 0
+# a +=1
+# print(a)
+#Дикримент-- уменщение значения какой либо переменной
+# a = 0
+# a -= 1
+# print(a)
+# a = 1
+# a *=2
+# print(a)
+#  И делит можно также  также можно % //
+# id -- возврещает номер ячейки памяти
+# a = 1
+# b = 1
+# print(id(a))
+# print(id(b))
+# практика
+# a = float(input('ведите число'))
+# b = float(input('ведите чилоо'))
+# resl = a**b
+# print(resl)
+#  Модуль  random - предоставляет нам функции для генерации случайных чисел или буквы символы
+# import  random
+# print(dir(random))
+# import random
+#
+# num = random.randint(1111, 9999)
+# print(num)
+# from random import choice
+# import string
+# print(string.ascii_letters) - выводит все буквы
+# a = choice(string.ascii_letters)
+# print(a)
+# from math import pi
+#
+# r = float(input(' ведите радиюс окружности'))
+# S = pi*(r**2)
+# P = pi*r*2
+# print('Площадь круга ', round(S))
+# print('Периметр', round(P))
+

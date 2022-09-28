@@ -71,5 +71,12 @@ text = 'Hello world! my name is John \' I m North King'
 # last_name ='\tSnow'
 # print(name)
 # print(lastName)
-# print(last_name)
+# print(last_name)#
 
+#praktika sam
+# name = input('vedite imia')
+# last_name =input('vedite FIO')
+# age = input('vozrast')
+# city = input('gorod')
+# print(f'Vas velichat {name},{last_name}, tebe {age}')
+# print(f'ty iz {city}')

@@ -20,6 +20,7 @@
 # print(str1[5], str1[6], str1[7])
 # print(str1[-3], str1[-2], str1[-1])
 #  это 2 вида индексации (вывод индексации)
+
 # Срезы по индексам ------
 # [start: end: <step>]
 # str1 = 'birthday'
@@ -37,6 +38,7 @@ text = 'Hello world! my name is John \' I m North King'
 # print(text[::2])
 # print(text[::-1]) #это переводит с конца
 # print(text[:12:-1])
+
 # Конкантенация строк (слияния, соединение)
 # worl1 = 'Hello'
 # worl2 = 'World'
@@ -44,6 +46,7 @@ text = 'Hello world! my name is John \' I m North King'
 # result = worl1 + probel + worl2
 # print(result)
 # print(worl1 + ' ' + worl2) -Или так можно
+
 # ФОРМАТИРОВАНИЕ СТРОК
 # 3 вида есть 1) %  2) .format()
 # 3)Интерпритация строки f-строки
@@ -61,6 +64,7 @@ text = 'Hello world! my name is John \' I m North King'
 # name =input('enter your name')
 # last_name = input('Last name')
 # print(f'hello, my name is { name  } -> {last_name} ')
+
 # Экронирование строк -- механизм при помоши которого можно вставлять симвлы, которые сложно ввести с
 # клаваиатуры в строку
 # \n -перенос строки

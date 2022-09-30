@@ -111,6 +111,7 @@
 #title -- переводит первые буквы всех слов в верхний регистр
 # text =input('vedite text ').title()
 # print(text)
+
 # split(разделитель)-- он дробит строку по разделителю который находится в строке
 # все части строки сохраняются в тип данных list
 # text = 'let me speak from my hearth in English! Cause My name is John Snow!'
@@ -129,3 +130,4 @@
 # print(res)
 # res = '@'.join(ls)
 # print(res)
+
